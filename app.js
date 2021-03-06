@@ -1,6 +1,9 @@
 console.log('Hi');
 document.write ('Hello');
 document.getElementById("hd").style.color = "red";
+document.getElementsByTagName('p')[0].style.color =  'blue';
+document.getElementsByClassName("example")[0].style.color = 'red';
+
 //alert ("hi");
 
 
