@@ -51,4 +51,14 @@ console.log(t.getMonth()); //month count starts from 0
 console.log(t.getDate());
 console.log(t.getTime());
 console.log(t.getDay());
-console.log(t.Date.now());
+// console.log(t.Date.now()); //it was supported on ES5
+
+let index = "-";
+for (let index = 0; index < 10; index++) {
+    console.log(index);
+    
+}
+
+console.log("----------------------------------");
+//----------Set Date Methods-----------------
+let time = new Date();
